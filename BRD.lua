@@ -73,9 +73,9 @@ function user_setup()
 	pick_tp_weapon()
 	
 	-- Adjust this if using the Terpander (new +song instrument)
-	info.DaurdablaInstrument = 'Daurdabla'
+	info.DaurdablaInstrument = 'Terpander'
 	-- How many extra songs we can keep from Daurdabla/Terpander
-	info.DaurdablaSongs = 2
+	info.DaurdablaSongs = 1
 	-- Whether to try to automatically use Daurdabla when an appropriate gap in current vs potential
 	-- songs appears, and you haven't specifically changed state.DaurdablaMode.
 	state.AutoDaurdabla = false
